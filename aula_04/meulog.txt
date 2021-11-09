@@ -1,0 +1,6 @@
+A mensagem esta sendo enviada
+A mensagem esta sendo enviada
+A mensagem esta sendo enviada
+O arquivo variables.sh contem 11 linhas, 22 palavras e 130 caracteres.
+O arquivo variables.sh contem 11 linhas, 22 palavras e 130 caracteres.
+09-11-2021 18:08:04	-	Verificacao do Arquivo: george.sh foi concluida com sucesso
