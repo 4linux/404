@@ -1,0 +1,7 @@
+changelog.md
+distro.txt
+error
+exercicio1.sh
+exercicio2.sh
+file.txt
+news.md
