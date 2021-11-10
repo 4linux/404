@@ -2,15 +2,15 @@
 
 DATA=$(date "+%d-%m-%Y %H:%M:%S")
 ARQUIVO=$1
-NOME_SCRIPT=$(basename "$0")
+NOME_SCRIPT=$(basename "$0" .sh)
 LOG="/var/log/$NOME_SCRIPT.log"
-LOG_ERROR="/var/log/$NOME_SCRIPT.log"
+LOG_ERROR="/var/log/$NOME_SCRIPT.error"
 
 echo "Análise do arquivo: $ARQUIVO"
 echo "============================="
 
 
-if [[ -f $ARQUIVO ]]
+if [ -f $ARQUIVO ]
 then
  ANALISE=$(echo "Linhas $(wc -l < $ARQUIVO)    \
 	 	 Palavras: $(wc -w < $ARQUIVO) \
